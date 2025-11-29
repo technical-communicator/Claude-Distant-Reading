@@ -1,0 +1,318 @@
+/* American Transcendentalist Theme - Earthy, Natural Palette */
+:root {
+    --primary-dark: #2c3e2e;
+    --primary-mid: #4a6741;
+    --primary-light: #8ba888;
+    --accent-gold: #d4af37;
+    --accent-rust: #b85042;
+    --bg-cream: #f5f1e8;
+    --bg-white: #fdfcfa;
+    --text-dark: #2a2a2a;
+    --text-mid: #5a5a5a;
+    --border: #d4cfc4;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background-color: var(--bg-cream);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-mid) 100%);
+    color: var(--bg-cream);
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--primary-light);
+}
+
+nav {
+    background-color: var(--bg-white);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    border-bottom: 3px solid var(--primary-mid);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.nav-btn {
+    background-color: var(--bg-cream);
+    border: 2px solid var(--primary-mid);
+    color: var(--text-dark);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-family: Georgia, serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.nav-btn:hover {
+    background-color: var(--primary-light);
+    color: white;
+    transform: translateY(-2px);
+}
+
+.nav-btn.active {
+    background-color: var(--primary-mid);
+    color: var(--bg-cream);
+    font-weight: bold;
+}
+
+main {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.content-section {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.content-section.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+h2 {
+    color: var(--primary-dark);
+    border-bottom: 3px solid var(--accent-gold);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem 0;
+    font-size: 2rem;
+}
+
+h3 {
+    color: var(--primary-mid);
+    margin: 1.5rem 0 1rem 0;
+    font-size: 1.5rem;
+}
+
+.card {
+    background-color: var(--bg-white);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.metadata {
+    background-color: var(--bg-cream);
+    padding: 1rem;
+    border-left: 4px solid var(--accent-gold);
+    margin: 1rem 0;
+}
+
+.metadata p {
+    margin: 0.5rem 0;
+}
+
+.metadata strong {
+    color: var(--primary-dark);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.stat-item {
+    background-color: var(--bg-cream);
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--primary-mid);
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-mid);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--primary-dark);
+    margin-top: 0.25rem;
+}
+
+#comparison-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.comparison-card {
+    background-color: var(--bg-white);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.comparison-card:hover {
+    border-color: var(--primary-mid);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+.comparison-card h4 {
+    color: var(--primary-dark);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+#wordcloud-container {
+    background-color: var(--bg-white);
+    border: 2px solid var(--border);
+    border-radius: 8px;
+    padding: 2rem;
+    margin: 1.5rem 0;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sentiment-bar {
+    background-color: var(--bg-cream);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.sentiment-stat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.sentiment-label {
+    font-weight: bold;
+    color: var(--text-dark);
+}
+
+.sentiment-value {
+    font-size: 1.2rem;
+    color: var(--primary-mid);
+}
+
+.progress-bar {
+    background-color: var(--border);
+    height: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0.5rem 0;
+}
+
+.progress-fill {
+    height: 100%;
+    transition: width 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.progress-positive {
+    background: linear-gradient(90deg, #4a6741, #8ba888);
+}
+
+.progress-negative {
+    background: linear-gradient(90deg, #b85042, #d67a6f);
+}
+
+.progress-neutral {
+    background: linear-gradient(90deg, #8a8a8a, #b0b0b0);
+}
+
+.word-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.word-tag {
+    background-color: var(--primary-light);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.word-tag:hover {
+    background-color: var(--primary-mid);
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: var(--primary-dark);
+    color: var(--bg-cream);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #comparison-grid {
+        grid-template-columns: 1fr;
+    }
+}

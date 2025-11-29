@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Transcendentalist Literature - Distant Reading</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.5/build/d3.layout.cloud.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>American Transcendentalist Literature</h1>
+        <p class="subtitle">A Distant Reading Analysis</p>
+    </header>
+
+    <nav id="text-nav">
+        <button class="nav-btn active" data-text="all">Overview</button>
+    </nav>
+
+    <main>
+        <!-- Overview Section -->
+        <section id="overview-section" class="content-section active">
+            <h2>Corpus Overview</h2>
+            <div id="corpus-summary"></div>
+
+            <h3>Comparative Analysis</h3>
+            <div id="comparison-grid"></div>
+        </section>
+
+        <!-- Individual Text Sections (dynamically generated) -->
+        <div id="text-sections"></div>
+    </main>
+
+    <footer>
+        <p>Distant Reading Analysis of 19th Century American Transcendentalist Literature</p>
+        <p>Texts sourced from Project Gutenberg</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

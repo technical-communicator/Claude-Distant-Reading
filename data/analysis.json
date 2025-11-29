@@ -1,0 +1,1340 @@
+{
+  "corpus_summary": {
+    "total_texts": 5,
+    "texts": [
+      "Leaves of Grass",
+      "Walden",
+      "The Scarlet Letter",
+      "Moby Dick",
+      "Nature"
+    ]
+  },
+  "texts": {
+    "leaves_of_grass": {
+      "metadata": {
+        "title": "Leaves of Grass",
+        "author": "Walt Whitman",
+        "year": 1855
+      },
+      "statistics": {
+        "total_words": 61293,
+        "unique_words": 11818,
+        "vocabulary_richness": 0.1928,
+        "avg_sentence_length": 31.85,
+        "avg_word_length": 5.83,
+        "total_sentences": 3821
+      },
+      "word_frequencies": {
+        "see": 432,
+        "one": 352,
+        "old": 275,
+        "shall": 263,
+        "yet": 262,
+        "thee": 261,
+        "love": 260,
+        "life": 258,
+        "soul": 247,
+        "earth": 243,
+        "man": 232,
+        "long": 226,
+        "thy": 226,
+        "night": 213,
+        "thou": 209,
+        "men": 188,
+        "day": 186,
+        "every": 180,
+        "death": 179,
+        "know": 176,
+        "come": 170,
+        "time": 162,
+        "great": 161,
+        "upon": 156,
+        "sea": 153,
+        "world": 151,
+        "ever": 149,
+        "many": 141,
+        "hear": 137,
+        "face": 132,
+        "like": 129,
+        "never": 128,
+        "hand": 127,
+        "give": 125,
+        "body": 124,
+        "last": 119,
+        "pass": 119,
+        "good": 118,
+        "young": 118,
+        "look": 118,
+        "well": 116,
+        "land": 113,
+        "rest": 111,
+        "sing": 108,
+        "eyes": 107,
+        "nothing": 105,
+        "air": 104,
+        "far": 103,
+        "song": 103,
+        "think": 103,
+        "dead": 103,
+        "women": 103,
+        "years": 102,
+        "mother": 99,
+        "sun": 98,
+        "new": 97,
+        "city": 95,
+        "little": 94,
+        "would": 93,
+        "others": 93,
+        "war": 92,
+        "woman": 92,
+        "lands": 91,
+        "states": 90,
+        "words": 90,
+        "voice": 89,
+        "forth": 89,
+        "alone": 88,
+        "past": 87,
+        "songs": 86,
+        "back": 86,
+        "saw": 86,
+        "may": 85,
+        "let": 84,
+        "strong": 84,
+        "around": 83,
+        "much": 83,
+        "toward": 83,
+        "light": 82,
+        "thought": 82,
+        "make": 82,
+        "away": 82,
+        "america": 78,
+        "joy": 78,
+        "stars": 75,
+        "till": 75,
+        "take": 74,
+        "close": 74,
+        "beautiful": 74,
+        "perfect": 73,
+        "god": 73,
+        "work": 73,
+        "head": 73,
+        "poems": 72,
+        "white": 71,
+        "things": 71,
+        "always": 71,
+        "stand": 71,
+        "high": 71,
+        "full": 70
+      },
+      "sentiment": {
+        "overall_polarity": 0.1447,
+        "overall_subjectivity": 0.5076,
+        "sentiment_distribution": {
+          "positive": 183,
+          "negative": 40,
+          "neutral": 277
+        },
+        "sentiment_arc": [
+          0.041,
+          0.406,
+          0.0,
+          0.142,
+          0.225,
+          0.006,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.08,
+          0.0,
+          0.0,
+          0.2,
+          0.583,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          -0.2,
+          0.6,
+          0.0,
+          0.1,
+          0.344,
+          0.35,
+          0.0,
+          0.0,
+          0.2,
+          -0.059,
+          0.5,
+          0.077,
+          -0.2,
+          0.0,
+          0.6,
+          0.141,
+          0.0,
+          0.3,
+          0.0,
+          0.1,
+          -0.05,
+          0.0,
+          0.0,
+          0.316,
+          0.467,
+          0.5,
+          -0.042,
+          0.0,
+          0.5,
+          0.4
+        ]
+      }
+    },
+    "walden": {
+      "metadata": {
+        "title": "Walden",
+        "author": "Henry David Thoreau",
+        "year": 1854
+      },
+      "statistics": {
+        "total_words": 52131,
+        "unique_words": 10484,
+        "vocabulary_richness": 0.2011,
+        "avg_sentence_length": 29.79,
+        "avg_word_length": 5.93,
+        "total_sentences": 3887
+      },
+      "word_frequencies": {
+        "one": 512,
+        "man": 359,
+        "would": 337,
+        "like": 296,
+        "men": 237,
+        "may": 218,
+        "life": 199,
+        "pond": 197,
+        "never": 189,
+        "house": 184,
+        "could": 181,
+        "day": 181,
+        "though": 180,
+        "even": 180,
+        "many": 179,
+        "time": 176,
+        "still": 173,
+        "water": 171,
+        "without": 158,
+        "woods": 151,
+        "much": 151,
+        "yet": 148,
+        "see": 147,
+        "long": 146,
+        "made": 141,
+        "every": 140,
+        "first": 126,
+        "well": 126,
+        "know": 126,
+        "new": 123,
+        "sometimes": 116,
+        "two": 115,
+        "little": 115,
+        "ice": 115,
+        "good": 113,
+        "old": 108,
+        "part": 107,
+        "way": 107,
+        "winter": 106,
+        "last": 104,
+        "far": 104,
+        "think": 103,
+        "heard": 102,
+        "live": 102,
+        "make": 101,
+        "came": 100,
+        "world": 99,
+        "great": 99,
+        "might": 97,
+        "nature": 97,
+        "come": 95,
+        "ever": 95,
+        "say": 93,
+        "state": 91,
+        "shore": 90,
+        "get": 89,
+        "morning": 89,
+        "work": 87,
+        "thought": 86,
+        "walden": 85,
+        "let": 85,
+        "must": 84,
+        "spring": 83,
+        "feet": 83,
+        "another": 83,
+        "said": 82,
+        "thus": 82,
+        "night": 82,
+        "earth": 82,
+        "things": 81,
+        "side": 80,
+        "sun": 80,
+        "perhaps": 79,
+        "years": 78,
+        "find": 75,
+        "put": 75,
+        "whose": 73,
+        "surface": 73,
+        "also": 72,
+        "got": 71,
+        "enough": 71,
+        "true": 71,
+        "summer": 71,
+        "found": 71,
+        "village": 70,
+        "half": 70,
+        "better": 68,
+        "seen": 67,
+        "shall": 67,
+        "days": 67,
+        "till": 64,
+        "upon": 64,
+        "small": 64,
+        "within": 62,
+        "ground": 62,
+        "take": 62,
+        "poor": 61,
+        "nothing": 61,
+        "left": 61,
+        "fire": 61
+      },
+      "sentiment": {
+        "overall_polarity": 0.1132,
+        "overall_subjectivity": 0.4899,
+        "sentiment_distribution": {
+          "positive": 200,
+          "negative": 66,
+          "neutral": 234
+        },
+        "sentiment_arc": [
+          0.062,
+          -0.5,
+          0.344,
+          -0.233,
+          0.067,
+          0.0,
+          0.4,
+          -0.075,
+          0.5,
+          1.0,
+          0.0,
+          0.25,
+          0.162,
+          0.08,
+          0.033,
+          0.0,
+          0.0,
+          -0.02,
+          0.133,
+          -0.167,
+          0.675,
+          0.0,
+          0.194,
+          0.217,
+          -0.073,
+          0.0,
+          0.3,
+          0.4,
+          0.053,
+          -0.05,
+          0.323,
+          0.294,
+          -0.167,
+          0.179,
+          -0.165,
+          0.325,
+          -0.006,
+          -0.365,
+          0.0,
+          0.0,
+          0.2,
+          0.192,
+          0.567,
+          0.188,
+          0.233,
+          0.117,
+          -0.101,
+          0.7,
+          -0.5,
+          0.025
+        ]
+      }
+    },
+    "the_scarlet_letter": {
+      "metadata": {
+        "title": "The Scarlet Letter",
+        "author": "Nathaniel Hawthorne",
+        "year": 1850
+      },
+      "statistics": {
+        "total_words": 40063,
+        "unique_words": 8149,
+        "vocabulary_richness": 0.2034,
+        "avg_sentence_length": 27.03,
+        "avg_word_length": 6.24,
+        "total_sentences": 3101
+      },
+      "word_frequencies": {
+        "hester": 411,
+        "would": 278,
+        "pearl": 251,
+        "thou": 238,
+        "one": 235,
+        "little": 234,
+        "child": 220,
+        "old": 211,
+        "man": 208,
+        "minister": 189,
+        "might": 184,
+        "mother": 183,
+        "could": 181,
+        "upon": 175,
+        "prynne": 167,
+        "life": 154,
+        "said": 148,
+        "letter": 138,
+        "heart": 131,
+        "dimmesdale": 124,
+        "scarlet": 120,
+        "good": 118,
+        "yet": 117,
+        "like": 116,
+        "may": 114,
+        "hand": 110,
+        "made": 106,
+        "never": 104,
+        "woman": 103,
+        "another": 101,
+        "seemed": 99,
+        "long": 98,
+        "eyes": 97,
+        "even": 97,
+        "must": 97,
+        "thee": 95,
+        "still": 93,
+        "many": 91,
+        "much": 90,
+        "new": 89,
+        "time": 88,
+        "world": 88,
+        "thy": 83,
+        "come": 80,
+        "illustration": 78,
+        "years": 78,
+        "chillingworth": 77,
+        "human": 77,
+        "roger": 77,
+        "face": 76,
+        "nature": 75,
+        "look": 74,
+        "men": 73,
+        "people": 72,
+        "within": 71,
+        "physician": 69,
+        "ever": 68,
+        "shall": 67,
+        "see": 67,
+        "answered": 66,
+        "well": 65,
+        "day": 65,
+        "indeed": 64,
+        "better": 64,
+        "came": 64,
+        "among": 63,
+        "thus": 62,
+        "clergyman": 62,
+        "however": 61,
+        "bosom": 61,
+        "without": 60,
+        "public": 59,
+        "seen": 59,
+        "great": 59,
+        "whose": 59,
+        "whether": 59,
+        "first": 58,
+        "young": 58,
+        "looked": 57,
+        "stood": 56,
+        "soul": 56,
+        "make": 55,
+        "speak": 55,
+        "kind": 54,
+        "truth": 54,
+        "two": 54,
+        "forth": 54,
+        "far": 52,
+        "smile": 52,
+        "mind": 51,
+        "though": 51,
+        "along": 51,
+        "moment": 51,
+        "since": 50,
+        "away": 50,
+        "know": 50,
+        "thought": 50,
+        "nothing": 50,
+        "less": 50,
+        "governor": 49
+      },
+      "sentiment": {
+        "overall_polarity": 0.088,
+        "overall_subjectivity": 0.498,
+        "sentiment_distribution": {
+          "positive": 200,
+          "negative": 62,
+          "neutral": 238
+        },
+        "sentiment_arc": [
+          0.0,
+          0.34,
+          0.0,
+          0.0,
+          0.0,
+          -0.25,
+          0.146,
+          0.6,
+          0.006,
+          -0.05,
+          0.122,
+          0.0,
+          0.3,
+          -0.033,
+          0.05,
+          0.0,
+          0.25,
+          0.3,
+          0.083,
+          0.18,
+          0.336,
+          0.083,
+          0.021,
+          0.083,
+          0.297,
+          0.083,
+          0.0,
+          0.067,
+          0.192,
+          0.175,
+          0.162,
+          0.0,
+          0.143,
+          0.088,
+          -0.233,
+          0.083,
+          0.028,
+          0.0,
+          -0.125,
+          -0.3,
+          0.038,
+          -0.222,
+          0.522,
+          0.387,
+          0.042,
+          0.0,
+          0.0,
+          0.479,
+          0.318,
+          -0.215
+        ]
+      }
+    },
+    "moby_dick": {
+      "metadata": {
+        "title": "Moby Dick",
+        "author": "Herman Melville",
+        "year": 1851
+      },
+      "statistics": {
+        "total_words": 102330,
+        "unique_words": 16213,
+        "vocabulary_richness": 0.1584,
+        "avg_sentence_length": 23.48,
+        "avg_word_length": 5.95,
+        "total_sentences": 9064
+      },
+      "word_frequencies": {
+        "whale": 1069,
+        "one": 899,
+        "like": 576,
+        "upon": 565,
+        "ahab": 494,
+        "man": 483,
+        "ship": 460,
+        "old": 441,
+        "would": 429,
+        "sea": 375,
+        "though": 365,
+        "yet": 337,
+        "time": 322,
+        "captain": 320,
+        "long": 311,
+        "chapter": 308,
+        "still": 308,
+        "great": 305,
+        "said": 298,
+        "boat": 282,
+        "must": 282,
+        "two": 281,
+        "seemed": 281,
+        "last": 273,
+        "thou": 268,
+        "head": 268,
+        "whales": 265,
+        "see": 265,
+        "way": 255,
+        "stubb": 254,
+        "little": 249,
+        "white": 248,
+        "round": 242,
+        "queequeg": 241,
+        "sperm": 238,
+        "three": 237,
+        "first": 236,
+        "may": 236,
+        "men": 231,
+        "every": 230,
+        "say": 227,
+        "much": 221,
+        "could": 216,
+        "well": 216,
+        "never": 203,
+        "hand": 200,
+        "good": 195,
+        "almost": 194,
+        "ever": 193,
+        "starbuck": 189,
+        "side": 186,
+        "even": 185,
+        "thing": 182,
+        "might": 182,
+        "look": 178,
+        "made": 176,
+        "away": 176,
+        "pequod": 175,
+        "come": 174,
+        "world": 169,
+        "among": 167,
+        "many": 165,
+        "day": 163,
+        "water": 163,
+        "deck": 161,
+        "seen": 159,
+        "far": 159,
+        "let": 155,
+        "eyes": 154,
+        "without": 153,
+        "sort": 152,
+        "back": 149,
+        "cried": 149,
+        "thought": 148,
+        "sir": 148,
+        "know": 148,
+        "part": 147,
+        "life": 142,
+        "boats": 142,
+        "right": 141,
+        "god": 139,
+        "air": 139,
+        "whole": 137,
+        "crew": 136,
+        "take": 135,
+        "aye": 134,
+        "night": 132,
+        "thus": 131,
+        "came": 129,
+        "soon": 129,
+        "things": 128,
+        "thee": 127,
+        "tell": 127,
+        "feet": 124,
+        "small": 123,
+        "till": 122,
+        "hands": 121,
+        "line": 120,
+        "think": 118,
+        "something": 118
+      },
+      "sentiment": {
+        "overall_polarity": 0.0824,
+        "overall_subjectivity": 0.4781,
+        "sentiment_distribution": {
+          "positive": 72,
+          "negative": 26,
+          "neutral": 402
+        },
+        "sentiment_arc": [
+          0.0,
+          0.0,
+          -0.225,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.258,
+          0.0,
+          0.0,
+          0.381,
+          0.322,
+          0.9,
+          0.0,
+          0.0,
+          0.0,
+          0.05,
+          0.035,
+          0.0,
+          0.0,
+          0.136,
+          0.208,
+          0.0,
+          -0.3,
+          -0.05,
+          0.0,
+          0.027,
+          0.0,
+          0.5
+        ]
+      }
+    },
+    "nature": {
+      "metadata": {
+        "title": "Nature",
+        "author": "Ralph Waldo Emerson",
+        "year": 1836
+      },
+      "statistics": {
+        "total_words": 7323,
+        "unique_words": 3119,
+        "vocabulary_richness": 0.4259,
+        "avg_sentence_length": 19.06,
+        "avg_word_length": 6.24,
+        "total_sentences": 805
+      },
+      "word_frequencies": {
+        "nature": 152,
+        "man": 115,
+        "world": 57,
+        "every": 52,
+        "mind": 49,
+        "beauty": 47,
+        "things": 44,
+        "spirit": 43,
+        "one": 42,
+        "god": 34,
+        "like": 34,
+        "thought": 32,
+        "truth": 31,
+        "may": 30,
+        "life": 29,
+        "men": 26,
+        "natural": 25,
+        "power": 25,
+        "new": 23,
+        "shall": 23,
+        "human": 23,
+        "soul": 22,
+        "objects": 22,
+        "time": 22,
+        "seen": 21,
+        "upon": 21,
+        "light": 20,
+        "without": 20,
+        "reason": 20,
+        "sun": 19,
+        "forms": 19,
+        "use": 19,
+        "matter": 19,
+        "eye": 18,
+        "language": 18,
+        "relation": 18,
+        "end": 18,
+        "make": 18,
+        "first": 18,
+        "words": 18,
+        "air": 17,
+        "poet": 17,
+        "good": 17,
+        "thus": 17,
+        "chapter": 16,
+        "thoughts": 16,
+        "laws": 16,
+        "great": 16,
+        "yet": 16,
+        "see": 16,
+        "day": 16,
+        "history": 15,
+        "much": 15,
+        "never": 15,
+        "fact": 15,
+        "made": 14,
+        "always": 14,
+        "love": 14,
+        "understanding": 14,
+        "whole": 14,
+        "call": 14,
+        "facts": 14,
+        "face": 13,
+        "therefore": 13,
+        "whilst": 13,
+        "part": 13,
+        "know": 13,
+        "law": 13,
+        "year": 12,
+        "science": 12,
+        "true": 12,
+        "sense": 12,
+        "space": 12,
+        "house": 12,
+        "earth": 12,
+        "universal": 12,
+        "spiritual": 12,
+        "religion": 11,
+        "creation": 11,
+        "senses": 11,
+        "material": 11,
+        "landscape": 11,
+        "virtue": 11,
+        "makes": 11,
+        "also": 10,
+        "let": 10,
+        "far": 10,
+        "would": 10,
+        "body": 10,
+        "present": 10,
+        "certain": 10,
+        "wise": 10,
+        "even": 10,
+        "delight": 10,
+        "something": 10,
+        "beautiful": 10,
+        "uses": 10,
+        "say": 10,
+        "absolute": 10,
+        "knowledge": 10
+      },
+      "sentiment": {
+        "overall_polarity": 0.1648,
+        "overall_subjectivity": 0.5094,
+        "sentiment_distribution": {
+          "positive": 179,
+          "negative": 42,
+          "neutral": 279
+        },
+        "sentiment_arc": [
+          0.067,
+          0.0,
+          0.5,
+          0.0,
+          0.025,
+          0.0,
+          -0.106,
+          0.0,
+          0.0,
+          0.338,
+          0.0,
+          0.4,
+          0.134,
+          0.0,
+          0.417,
+          0.0,
+          0.229,
+          0.0,
+          0.0,
+          0.5,
+          0.0,
+          0.0,
+          1.0,
+          -0.3,
+          0.0,
+          0.0,
+          -0.129,
+          -0.1,
+          0.0,
+          -0.022,
+          0.125,
+          0.211,
+          0.175,
+          0.1,
+          0.4,
+          0.0,
+          0.0,
+          0.056,
+          -0.125,
+          0.167,
+          0.0,
+          0.0,
+          0.0,
+          0.2,
+          0.2,
+          0.35,
+          0.0,
+          -0.5,
+          0.183,
+          1.0
+        ]
+      }
+    }
+  },
+  "comparative": {
+    "shared_vocabulary": [
+      "day",
+      "yet",
+      "like",
+      "far",
+      "great",
+      "upon",
+      "much",
+      "men",
+      "time",
+      "man",
+      "know",
+      "see",
+      "good",
+      "life",
+      "never",
+      "one",
+      "would",
+      "thought",
+      "world",
+      "may"
+    ],
+    "distinctive_words": {
+      "leaves_of_grass": [
+        [
+          "death",
+          179
+        ],
+        [
+          "hear",
+          137
+        ],
+        [
+          "give",
+          125
+        ],
+        [
+          "pass",
+          119
+        ],
+        [
+          "land",
+          113
+        ],
+        [
+          "rest",
+          111
+        ],
+        [
+          "sing",
+          108
+        ],
+        [
+          "song",
+          103
+        ],
+        [
+          "dead",
+          103
+        ],
+        [
+          "women",
+          103
+        ],
+        [
+          "city",
+          95
+        ],
+        [
+          "others",
+          93
+        ],
+        [
+          "war",
+          92
+        ],
+        [
+          "lands",
+          91
+        ],
+        [
+          "states",
+          90
+        ],
+        [
+          "voice",
+          89
+        ],
+        [
+          "alone",
+          88
+        ],
+        [
+          "past",
+          87
+        ],
+        [
+          "songs",
+          86
+        ],
+        [
+          "saw",
+          86
+        ]
+      ],
+      "walden": [
+        [
+          "pond",
+          197
+        ],
+        [
+          "woods",
+          151
+        ],
+        [
+          "sometimes",
+          116
+        ],
+        [
+          "ice",
+          115
+        ],
+        [
+          "winter",
+          106
+        ],
+        [
+          "heard",
+          102
+        ],
+        [
+          "live",
+          102
+        ],
+        [
+          "state",
+          91
+        ],
+        [
+          "shore",
+          90
+        ],
+        [
+          "morning",
+          89
+        ],
+        [
+          "get",
+          89
+        ],
+        [
+          "walden",
+          85
+        ],
+        [
+          "spring",
+          83
+        ],
+        [
+          "perhaps",
+          79
+        ],
+        [
+          "put",
+          75
+        ],
+        [
+          "find",
+          75
+        ],
+        [
+          "surface",
+          73
+        ],
+        [
+          "got",
+          71
+        ],
+        [
+          "summer",
+          71
+        ],
+        [
+          "found",
+          71
+        ]
+      ],
+      "the_scarlet_letter": [
+        [
+          "hester",
+          411
+        ],
+        [
+          "pearl",
+          251
+        ],
+        [
+          "child",
+          220
+        ],
+        [
+          "minister",
+          189
+        ],
+        [
+          "prynne",
+          167
+        ],
+        [
+          "letter",
+          138
+        ],
+        [
+          "heart",
+          131
+        ],
+        [
+          "dimmesdale",
+          124
+        ],
+        [
+          "scarlet",
+          120
+        ],
+        [
+          "illustration",
+          78
+        ],
+        [
+          "roger",
+          77
+        ],
+        [
+          "chillingworth",
+          77
+        ],
+        [
+          "people",
+          72
+        ],
+        [
+          "physician",
+          69
+        ],
+        [
+          "answered",
+          66
+        ],
+        [
+          "indeed",
+          64
+        ],
+        [
+          "clergyman",
+          62
+        ],
+        [
+          "bosom",
+          61
+        ],
+        [
+          "however",
+          61
+        ],
+        [
+          "whether",
+          59
+        ]
+      ],
+      "moby_dick": [
+        [
+          "whale",
+          1069
+        ],
+        [
+          "ahab",
+          494
+        ],
+        [
+          "ship",
+          460
+        ],
+        [
+          "captain",
+          320
+        ],
+        [
+          "boat",
+          282
+        ],
+        [
+          "whales",
+          265
+        ],
+        [
+          "stubb",
+          254
+        ],
+        [
+          "round",
+          242
+        ],
+        [
+          "queequeg",
+          241
+        ],
+        [
+          "sperm",
+          238
+        ],
+        [
+          "three",
+          237
+        ],
+        [
+          "almost",
+          194
+        ],
+        [
+          "starbuck",
+          189
+        ],
+        [
+          "thing",
+          182
+        ],
+        [
+          "pequod",
+          175
+        ],
+        [
+          "deck",
+          161
+        ],
+        [
+          "sort",
+          152
+        ],
+        [
+          "cried",
+          149
+        ],
+        [
+          "sir",
+          148
+        ],
+        [
+          "boats",
+          142
+        ]
+      ],
+      "nature": [
+        [
+          "beauty",
+          47
+        ],
+        [
+          "spirit",
+          43
+        ],
+        [
+          "power",
+          25
+        ],
+        [
+          "natural",
+          25
+        ],
+        [
+          "objects",
+          22
+        ],
+        [
+          "reason",
+          20
+        ],
+        [
+          "forms",
+          19
+        ],
+        [
+          "use",
+          19
+        ],
+        [
+          "matter",
+          19
+        ],
+        [
+          "eye",
+          18
+        ],
+        [
+          "language",
+          18
+        ],
+        [
+          "end",
+          18
+        ],
+        [
+          "relation",
+          18
+        ],
+        [
+          "poet",
+          17
+        ],
+        [
+          "laws",
+          16
+        ],
+        [
+          "thoughts",
+          16
+        ],
+        [
+          "fact",
+          15
+        ],
+        [
+          "history",
+          15
+        ],
+        [
+          "understanding",
+          14
+        ],
+        [
+          "facts",
+          14
+        ]
+      ]
+    }
+  }
+}
